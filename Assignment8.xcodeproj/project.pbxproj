@@ -13,6 +13,9 @@
 		D9455CF828431C94004CDEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9455CF628431C94004CDEE2 /* Main.storyboard */; };
 		D9455CFA28431C96004CDEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9455CF928431C96004CDEE2 /* Assets.xcassets */; };
 		D9455CFD28431C96004CDEE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9455CFB28431C96004CDEE2 /* LaunchScreen.storyboard */; };
+		D9455D0528431E38004CDEE2 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9455D0428431E38004CDEE2 /* MenuCollectionViewCell.swift */; };
+		D9455D0728431E42004CDEE2 /* TypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9455D0628431E42004CDEE2 /* TypeCollectionViewCell.swift */; };
+		D9455D0928433334004CDEE2 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9455D0828433334004CDEE2 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D9455CF928431C96004CDEE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9455CFC28431C96004CDEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9455CFE28431C96004CDEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9455D0428431E38004CDEE2 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		D9455D0628431E42004CDEE2 /* TypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		D9455D0828433334004CDEE2 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		D9455CEF28431C94004CDEE2 /* Assignment8 */ = {
 			isa = PBXGroup;
 			children = (
+				D9455D0C284339E7004CDEE2 /* View Controllers */,
+				D9455D0B284339DA004CDEE2 /* Model */,
+				D9455D0A284339BF004CDEE2 /* Views */,
 				D9455CF028431C94004CDEE2 /* AppDelegate.swift */,
 				D9455CF228431C94004CDEE2 /* SceneDelegate.swift */,
-				D9455CF428431C94004CDEE2 /* ViewController.swift */,
 				D9455CF628431C94004CDEE2 /* Main.storyboard */,
 				D9455CF928431C96004CDEE2 /* Assets.xcassets */,
 				D9455CFB28431C96004CDEE2 /* LaunchScreen.storyboard */,
 				D9455CFE28431C96004CDEE2 /* Info.plist */,
 			);
 			path = Assignment8;
+			sourceTree = "<group>";
+		};
+		D9455D0A284339BF004CDEE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9455D0428431E38004CDEE2 /* MenuCollectionViewCell.swift */,
+				D9455D0628431E42004CDEE2 /* TypeCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9455D0B284339DA004CDEE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9455D0828433334004CDEE2 /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9455D0C284339E7004CDEE2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9455CF428431C94004CDEE2 /* ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9455D0728431E42004CDEE2 /* TypeCollectionViewCell.swift in Sources */,
 				D9455CF528431C94004CDEE2 /* ViewController.swift in Sources */,
+				D9455D0928433334004CDEE2 /* Restaurant.swift in Sources */,
 				D9455CF128431C94004CDEE2 /* AppDelegate.swift in Sources */,
 				D9455CF328431C94004CDEE2 /* SceneDelegate.swift in Sources */,
+				D9455D0528431E38004CDEE2 /* MenuCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
